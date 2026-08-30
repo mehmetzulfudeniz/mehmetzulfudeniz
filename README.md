@@ -6,14 +6,39 @@ I build practical software solutions across **mobile development, backend system
 
 ---
 
-## 🚀 Current Focus
+## ⭐ Featured Engineering Projects
 
-- 📱 Android development with **Kotlin** and **Java**
-- 🛠️ IT/network diagnostics and automation with **Python**
-- 🌐 Backend and business applications with **C# / ASP.NET**
-- 📄 Android PDF tooling and document workflows
-- 🔐 Defensive cybersecurity and security fundamentals
-- ⚙️ Technical-support utilities and troubleshooting workflows
+### 🩺 [Support Diagnostic Toolkit](./portfolio-projects/support-diagnostic-toolkit)
+Dependency-free Python CLI for first-line support diagnostics: **DNS resolution, TCP connectivity, HTTP availability, TLS certificate checks, JSON API validation, latency measurement, and machine-readable output**.
+
+`Python` · `DNS` · `TCP/IP` · `HTTP` · `SSL/TLS` · `APIs`
+
+### 🎫 [Support Portal](./portfolio-projects/support-portal)
+Ticket and incident-management REST API with persistent storage, ticket lifecycle operations, validation, and service-health monitoring.
+
+`C#` · `.NET 8` · `ASP.NET Core` · `Entity Framework Core` · `SQLite` · `REST`
+
+### 📱 [Android Support App — Support Health](./portfolio-projects/android-support-app)
+Modern Android diagnostic utility that checks HTTPS endpoint availability and reports response status and latency using a ViewModel/StateFlow architecture.
+
+`Kotlin` · `Jetpack Compose` · `Coroutines` · `ViewModel` · `StateFlow` · `Android`
+
+### 📸 [InstagramClone](https://github.com/mehmetzulfudeniz/InstagramClone)
+Android social-feed prototype with Firebase Authentication, Cloud Firestore, Firebase Storage, image upload, and feed rendering.
+
+`Java` · `Android` · `Firebase` · `Picasso` · `ViewBinding`
+
+### 🎮 [Fruit Salad](https://github.com/mehmetzulfudeniz/FriutSalad)
+Multi-module Android game built around LibGDX with reusable core logic and Android-specific packaging.
+
+`Java` · `Android` · `LibGDX` · `Box2D` · `Ashley ECS` · `Gradle`
+
+### 🐍 [Snake](https://github.com/mehmetzulfudeniz/Snake)
+Class-based desktop Snake implementation with score tracking, collision detection, wraparound movement, keyboard controls, and a timer-driven game loop.
+
+`Python` · `OOP` · `Event-driven programming` · `Game logic`
+
+---
 
 ## 🧰 Technology Stack
 
@@ -21,10 +46,10 @@ I build practical software solutions across **mobile development, backend system
 `Kotlin` · `Java` · `C#` · `Python` · `SQL` · `JavaScript`
 
 **Mobile**  
-`Android SDK` · `Jetpack` · `Firebase` · `Gradle`
+`Android SDK` · `Jetpack Compose` · `Firebase` · `Gradle`
 
 **Backend & Data**  
-`ASP.NET` · `REST APIs` · `SQL` · `JSON`
+`ASP.NET Core` · `REST APIs` · `Entity Framework Core` · `SQLite` · `SQL` · `JSON`
 
 **Systems & Networking**  
 `Windows` · `Linux` · `TCP/IP` · `DNS` · `HTTP` · `SSL/TLS`
@@ -34,35 +59,17 @@ I build practical software solutions across **mobile development, backend system
 
 ---
 
-## ⭐ Portfolio Highlights
+## 🔧 Current Engineering Focus
 
-### 📸 InstagramClone
-Android social-feed prototype demonstrating Firebase Authentication, Cloud Firestore, Firebase Storage, image handling, and ViewBinding.
+- Building support-engineering utilities that make troubleshooting repeatable
+- Modern Android development with Kotlin and Jetpack Compose
+- Backend APIs with C# and ASP.NET Core
+- Network and application diagnostics
+- Repository quality: documentation, reproducible setup, tests, and source-control hygiene
 
-**Java · Android · Firebase**
+## 🔐 Security Learning
 
-### 🐍 Snake
-Classic Snake implementation using Python's standard-library `turtle` graphics module, event-driven controls, collision detection, and a timer-based game loop.
-
-**Python · Event-driven programming · Game logic**
-
-### 🎮 Fruit Salad
-A multi-module Java/Android game project structured around Android and core modules.
-
-**Java · Android · Gradle**
-
-### 🔐 Cybersecurity Labs
-Small educational exercises covering networking and software-security concepts. These repositories are maintained strictly for **authorized lab environments, defensive learning, and security research**.
-
----
-
-## 🧪 Portfolio Build Queue
-
-I am currently expanding this profile with three job-focused engineering projects:
-
-1. **Support Diagnostic Toolkit** — DNS, HTTP, SSL/TLS, TCP port and API diagnostics in Python
-2. **Support Portal** — ticket and incident management with C#, ASP.NET and SQL
-3. **Android Support App** — Kotlin-based Android application using modern architecture and REST APIs
+Some older repositories contain small cybersecurity exercises created for **authorized lab environments, defensive education, and security research**. They are learning artifacts and are not presented as production application work. The `juice-shop` repository is a fork of the official OWASP Juice Shop training project.
 
 ---
 
