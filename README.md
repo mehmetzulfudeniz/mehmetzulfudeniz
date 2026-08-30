@@ -2,6 +2,8 @@
 
 ### Software Developer · Android Developer · IT & Technical Support
 
+[![Portfolio CI](https://github.com/mehmetzulfudeniz/mehmetzulfudeniz/actions/workflows/portfolio-ci.yml/badge.svg)](https://github.com/mehmetzulfudeniz/mehmetzulfudeniz/actions/workflows/portfolio-ci.yml)
+
 I build practical software solutions across **mobile development, backend systems, automation, diagnostics, and IT infrastructure**. My background combines hands-on technical support with software development, so I approach problems from both the **application** and **systems** sides.
 
 ---
