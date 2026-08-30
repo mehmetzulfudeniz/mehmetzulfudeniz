@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
@@ -129,6 +130,7 @@ data class EndpointResult(
     val message: String
 )
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SupportHealthApp(viewModel: SupportHealthViewModel = viewModel()) {
     val state by viewModel.state.collectAsState()
