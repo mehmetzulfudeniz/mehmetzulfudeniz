@@ -16,7 +16,7 @@ It is **not G+D software**, does not contain G+D source code or binaries, and do
 - expected-versus-counted reconciliation
 - variance detection
 - fleet and cash-operation KPIs
-- OpenAPI endpoint in Development mode
+- dependency-free ASP.NET Core Minimal API implementation
 
 ## Run
 
