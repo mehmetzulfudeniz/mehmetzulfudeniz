@@ -1,0 +1,51 @@
+name: Portfolio CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  python-toolkit:
+    name: Python diagnostic tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run unit tests
+        working-directory: portfolio-projects/support-diagnostic-toolkit
+        run: python -m unittest -v
+
+  support-portal:
+    name: .NET support portal build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+      - name: Restore
+        run: dotnet restore portfolio-projects/support-portal/SupportPortal.csproj
+      - name: Build
+        run: dotnet build portfolio-projects/support-portal/SupportPortal.csproj --configuration Release --no-restore
+
+  android-support-app:
+    name: Android support app build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: android-actions/setup-android@v3
+      - name: Install Android SDK 37
+        run: sdkmanager "platforms;android-37" "build-tools;36.0.0"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.5.0"
+      - name: Build debug APK
+        run: gradle -p portfolio-projects/android-support-app :app:assembleDebug --stacktrace
