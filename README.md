@@ -1,14 +1,26 @@
 # Mehmet Zülfü Deniz
 
-### Software Developer · Android Developer · IT & Technical Support
+### Software Developer · Android Developer · IT & Technical Support · Cash Technology
 
 [![Portfolio CI](https://github.com/mehmetzulfudeniz/mehmetzulfudeniz/actions/workflows/portfolio-ci.yml/badge.svg)](https://github.com/mehmetzulfudeniz/mehmetzulfudeniz/actions/workflows/portfolio-ci.yml)
 
-I build practical software solutions across **mobile development, backend systems, automation, diagnostics, and IT infrastructure**. My background combines hands-on technical support with software development, so I approach problems from both the **application** and **systems** sides.
+I build practical software solutions across **cash technology, mobile development, backend systems, automation, diagnostics, and IT infrastructure**. My engineering approach combines hands-on technical support with software development, so I work across both the **application** and **systems/device** sides of operational problems.
 
 ---
 
 ## ⭐ Featured Engineering Projects
+
+### 💶 [Cash Technology Lab](./portfolio-projects/cash-technology-lab)
+Independent banknote-processing and device-integration engineering lab based on publicly documented cash-technology workflows. Includes configurable public-spec BPS simulation profiles, denomination/fitness/orientation processing, authentication rejects, serial capture, fleet health KPIs, a vendor-neutral device gateway, and a SHA-256 chained audit log.
+
+`Python` · `Cash Processing` · `Device Integration` · `Banknote Workflows` · `Monitoring` · `Audit`
+
+> G+D product names are referenced only as public domain context. This project contains no proprietary G+D source code, firmware, binaries, credentials, or reverse-engineered protocols.
+
+### 🏦 [Cash Center Operations API](./portfolio-projects/cash-center-operations-api)
+.NET 8 REST API for cash-center workflows: processing devices, operator sessions, deposit receiving, expected-vs-counted reconciliation, variance detection, session closing, and operational KPIs.
+
+`C#` · `.NET 8` · `ASP.NET Core` · `REST` · `Reconciliation` · `Cash Operations`
 
 ### 🩺 [Support Diagnostic Toolkit](./portfolio-projects/support-diagnostic-toolkit)
 Dependency-free Python CLI for first-line support diagnostics: **DNS resolution, TCP connectivity, HTTP availability, TLS certificate checks, JSON API validation, latency measurement, and machine-readable output**.
@@ -42,10 +54,35 @@ Class-based desktop Snake implementation with score tracking, collision detectio
 
 ---
 
+## 💵 Cash Technology Engineering
+
+The portfolio now includes original engineering work around cash-processing environments:
+
+- banknote count and denomination workflows
+- authentication and reject handling
+- fitness/orientation sorting models
+- serial-number capture workflow
+- processing-device capability profiles
+- vendor-neutral device adapter boundaries
+- device health and fleet monitoring
+- reject-rate and service alerts
+- cash-processing sessions
+- deposit receiving and reconciliation
+- variance detection
+- operational KPI reporting
+- tamper-evident audit records
+
+Public G+D BPS / M evo / Compass / Eco-System capabilities are used only to understand the industry domain and to design independent portfolio software. No vendor-owned software is redistributed.
+
+---
+
 ## 🧰 Technology Stack
 
 **Languages**  
 `Kotlin` · `Java` · `C#` · `Python` · `SQL` · `JavaScript`
+
+**Cash Technology & Operations**  
+`Cash Processing` · `Device Integration` · `Reconciliation` · `Operational KPIs` · `Audit Trails` · `Fleet Monitoring`
 
 **Mobile**  
 `Android SDK` · `Jetpack Compose` · `Firebase` · `Gradle`
@@ -57,17 +94,19 @@ Class-based desktop Snake implementation with score tracking, collision detectio
 `Windows` · `Linux` · `TCP/IP` · `DNS` · `HTTP` · `SSL/TLS`
 
 **Tools**  
-`Git` · `GitHub` · `Android Studio` · `Postman` · `Firebase`
+`Git` · `GitHub` · `GitHub Actions` · `Android Studio` · `Postman` · `Firebase`
 
 ---
 
 ## 🔧 Current Engineering Focus
 
-- Building support-engineering utilities that make troubleshooting repeatable
+- Cash-processing, cash-center and device-integration software
+- Support-engineering utilities that make troubleshooting repeatable
 - Modern Android development with Kotlin and Jetpack Compose
 - Backend APIs with C# and ASP.NET Core
 - Network and application diagnostics
-- Repository quality: documentation, reproducible setup, tests, and source-control hygiene
+- Operational monitoring, reconciliation and auditability
+- Repository quality: documentation, reproducible setup, tests, CI, and source-control hygiene
 
 ## 🔐 Security Learning
 
@@ -77,7 +116,7 @@ Some older repositories contain small cybersecurity exercises created for **auth
 
 ## 🎯 Engineering Interests
 
-`Technical Support Engineering` · `Android Development` · `Backend Development` · `IT Automation` · `Network Diagnostics` · `System Troubleshooting` · `Defensive Cybersecurity`
+`Cash Technology` · `Technical Support Engineering` · `Android Development` · `Backend Development` · `IT Automation` · `Network Diagnostics` · `System Troubleshooting` · `Defensive Cybersecurity`
 
 ## 📫 Contact
 
@@ -86,4 +125,4 @@ Some older repositories contain small cybersecurity exercises created for **auth
 
 ---
 
-> Building a portfolio around demonstrable engineering work: working code, clear documentation, reproducible setup, and practical troubleshooting.
+> Building a portfolio around demonstrable engineering work: working code, clear documentation, reproducible setup, automated validation, and practical operational troubleshooting.
