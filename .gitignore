@@ -1,0 +1,23 @@
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+
+# .NET
+**/bin/
+**/obj/
+**/*.db
+**/*.db-shm
+**/*.db-wal
+
+# Android / Gradle
+**/.gradle/
+**/build/
+**/local.properties
+**/.idea/
+**/*.iml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
